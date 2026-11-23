@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 8000;
 
 app.use(express.json());
 
-app.post("/devast', function (req, res) {
+app.post("/devast", function (req, res) {
     console.log(JSON.stringify(req.body));
 
     res.json({
